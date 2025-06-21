@@ -192,3 +192,88 @@ PRODUCT_PACKAGES += \
     TetheringConfigOverlay \
     wpa_supplicant.conf \
     WifiOverlay
+
+# fstab
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/rootdir/etc/fstab.mt6765:$(TARGET_COPY_OUT_SYSTEM)/etc/fstab.mt6765
+
+# OplusAPPS
+PRODUCT_PACKAGES += \
+    Op1 \
+    Op2 \
+    Op3 \
+    Op4 \
+    OpWidget \
+    OPSoundRecorder
+
+# APPS
+PRODUCT_PACKAGES += \
+    Cameraroll \
+    Clock \
+    FCA \
+    Gboard \
+    Gpdf \
+    Kalender \
+    Kalkulator \
+    Lspeed \
+    Via \
+    Nightmare \
+    Forest \
+    DocScanner \
+    BarCode
+
+# Live Wallpaper
+PRODUCT_PACKAGES += \
+    Op5 \
+    Op6 \
+    Op7 \
+    Op8 \
+    Op9 \
+    Op10 \
+    Op11 \
+    Op12 \
+    Op13 \
+    Op14 \
+    Op15 \
+    Op16 \
+    Op17 \
+    Op18 \
+    Op19 \
+    Op20 \
+    Op21 \
+    Op22 \
+    Op23 \
+    Op24 \
+    Op25 \
+    Op26 \
+    Op27 \
+    Op28 \
+    Op29 \
+    Op30 \
+    Op31 \
+    Op32 \
+    Op33 \
+    Op34 \
+    Op35 \
+    Op36 \
+    Op37 \
+    Op38 \
+    Op39 \
+    Flw1 \
+    Flw2 \
+    Llw1 \
+    Llw2 \
+    Llw3 \
+    Rlw1 \
+    Rlw2 \
+    Rlw3 \
+    Rlw4 \
+    Zlw \
+    Visualization \
+    PhaseBeam \
+    NoiseField \
+    Microbes \
+    MagicSmokeWallpapers \
+    KKLWP \
+    HoloSpiralWallpaper \
+    Galaxy4
