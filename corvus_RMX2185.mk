@@ -39,3 +39,5 @@ TARGET_BOOT_ANIMATION_RES := 720
 TARGET_INCLUDE_STOCK_ARCORE := false
 
 PRODUCT_GMS_CLIENTID_BASE := android-realme
+
+$(call inherit-product, vendor/extra/product.mk)
