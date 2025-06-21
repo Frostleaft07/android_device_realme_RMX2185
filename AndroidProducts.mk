@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_RMX2185.mk
+    $(LOCAL_DIR)/corvus_RMX2185.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_RMX2185-user \
-    aosp_RMX2185-userdebug \
-    aosp_RMX2185-eng
+    corvus_RMX2185-user \
+    corvus_RMX2185-userdebug \
+    corvus_RMX2185-eng
